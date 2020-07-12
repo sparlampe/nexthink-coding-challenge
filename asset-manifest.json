@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nexthink-coding-challenge/static/css/main.00e28358.chunk.css",
+    "main.js": "/nexthink-coding-challenge/static/js/main.51a0bff1.chunk.js",
+    "main.js.map": "/nexthink-coding-challenge/static/js/main.51a0bff1.chunk.js.map",
+    "runtime-main.js": "/nexthink-coding-challenge/static/js/runtime-main.3ef9c389.js",
+    "runtime-main.js.map": "/nexthink-coding-challenge/static/js/runtime-main.3ef9c389.js.map",
+    "static/js/2.1f4c4a78.chunk.js": "/nexthink-coding-challenge/static/js/2.1f4c4a78.chunk.js",
+    "static/js/2.1f4c4a78.chunk.js.map": "/nexthink-coding-challenge/static/js/2.1f4c4a78.chunk.js.map",
+    "index.html": "/nexthink-coding-challenge/index.html",
+    "precache-manifest.579067bb7c7c30a203a0554b64961056.js": "/nexthink-coding-challenge/precache-manifest.579067bb7c7c30a203a0554b64961056.js",
+    "service-worker.js": "/nexthink-coding-challenge/service-worker.js",
+    "static/css/main.00e28358.chunk.css.map": "/nexthink-coding-challenge/static/css/main.00e28358.chunk.css.map",
+    "static/js/2.1f4c4a78.chunk.js.LICENSE.txt": "/nexthink-coding-challenge/static/js/2.1f4c4a78.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3ef9c389.js",
+    "static/js/2.1f4c4a78.chunk.js",
+    "static/css/main.00e28358.chunk.css",
+    "static/js/main.51a0bff1.chunk.js"
+  ]
+}
