@@ -1,0 +1,35 @@
+.App {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100vh;
+}
+
+.FreePokemonsContainer{
+  background-color: rgb(179,142,240);
+  flex:50%;
+  overflow: auto;
+}
+
+.CaughtPokemonsContainer{
+  background-color: rgb(140,239,203);
+  flex:50%;
+  overflow: auto;
+}
+
+.FreePokemons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.FreePokemon {
+  width:  calc(100%/3);
+}
+.FreePokemon > img {
+  display: block;
+  margin: auto;
+}
+
+.CaughtPokemon {
+  margin: 10px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+<div id="wrongButtons"></div>
+<div id="correctButtons1"></div>
+<div id="correctButtons2"></div>
+<script>
+  for (var i = 0; i < 5; i++) {
+    var btn = document.createElement('button');
+    btn.appendChild(document.createTextNode('WrongButton ' + i));
+    btn.addEventListener('click', function () {
+      console.log(i);
+    });
+    document.getElementById("wrongButtons").appendChild(btn)
+  }
+
+  for (let i = 0; i < 5; i++) {
+    var btn = document.createElement('button');
+    btn.appendChild(document.createTextNode('CorrectButton ' + i));
+    btn.addEventListener('click', function () {
+      console.log(i);
+    });
+    document.getElementById("correctButtons1").appendChild(btn)
+  }
+  
+  function createButton(i) {
+    var btn = document.createElement('button');
+    btn.appendChild(document.createTextNode('CorrectButton ' + i));
+    btn.addEventListener('click', function () {
+      console.log(i);
+    });
+    document.getElementById("correctButtons2").appendChild(btn)
+  }
+  for (var i = 0; i < 5; i++) {
+    createButton(i);
+  }
+</script>
+</body>
+</html>
